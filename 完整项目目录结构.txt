@@ -1,0 +1,22 @@
+Calculator/
+├── frontend/                    # 前端文件夹
+│   ├── index.html               # 页面主体
+│   ├── css/
+│   │   └── style.css            # 样式
+│   └── js/
+│       └── calculator.js        # 前端逻辑，调用后端接口
+├── backend/                     # SpringBoot后端
+│   ├── pom.xml                  # Maven依赖配置
+│   └── src/main/java/com/calc/
+│       ├── CalculatorApplication.java  # 后端启动类
+│       ├── controller/
+│       │   └── CalcController.java     # 接口控制器
+│       ├── service/
+│       │   └── CalcService.java        # 算式计算业务（逆波兰表达式）
+│       ├── entity/
+│       │   └── CalcHistory.java        # 历史记录实体类
+│       └── repository/
+│           └── CalcHistoryRepository.java  # 数据库操作
+│   └── src/main/resources/
+│       └── application.yml      # 后端配置文件
+└── .gitignore                   # git忽略文件
