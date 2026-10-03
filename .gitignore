@@ -1,0 +1,17 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.vscode/
+*.log
+
+# SpringBoot
+h2*.db
+spring-boot.log
+
+# OS
+.DS_Store
+Thumbs.db
